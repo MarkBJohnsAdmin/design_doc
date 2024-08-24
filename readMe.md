@@ -237,7 +237,7 @@ This stresses the importance of having a synergistic Frontline and Backline. You
 
 If the backlines are completely immune to damage, and entire strategies can be centered around specific field conditions, it can be easy to run into stalemates. For instance, say you have a team heavily based on Fire and Grass types utilizing harsh sunlight, while your opponent has a Water and Electric team that relies on heavy rain, you can spend dozens of turns making it rain, then causing a drought, then making it rain, then causing a drought, all while no progress is being made. While I don't want to take away the ability to play ridiculous games of chicken like this, I don't want to encourage it either, which is why there will be `elemental hazards`.
 
-One of the support moves your backline involves putting hazards all over the opponents side of the field, which deal 1/20th of each Monster's health at the end of every turn. This is by no means catestrophic, but because they're elemental, they factor in type vulnerabilities. For example, if the hazards are Fire type, Fire is super-effective against Grass, so instead of 1/20th, they'll deal 1/16th against Grass types. If the Monster has two types and both are vulnerable to Fire, they'll instead do 1/12th. Likewise, resisting the hazards with one type will reduce the damage to 1/22nd, and resisting with both types reduces it to 1/24th. By design, being vulnerable to the hazards is more bad than resisting them is good, so no matter what your type is, hazards aren't something you can just ignore.
+One of the support move types your backline can use involves putting hazards all over the opponents side of the field, which deal 1/20th of each Monster's health at the end of every turn. This is by no means catestrophic, but because they're elemental, they factor in type vulnerabilities. For example, if the hazards are Fire type, Fire is super-effective against Grass, so instead of 1/20th, they'll deal 1/16th against Grass types. If the Monster has two types and both are vulnerable to Fire, they'll instead do 1/12th. Likewise, resisting the hazards with one type will reduce the damage to 1/22nd, and resisting with both types reduces it to 1/24th. By design, being vulnerable to the hazards is more bad than resisting them is good, so no matter what your type is, hazards aren't something you can just ignore.
 
 Hazards are one of the few ways that you can damage the opponent's Backline, as they cover the entire field, not just the Frontline. By setting up hazards, you've started a countdown. By design, the Monsters in the Backline can't fall to just hazard damage, but the Frontline can, and this forces you to put a Monster with extremely low health in the Frontline to either get attacked or get knocked out from hazards the next turn. This makes it so hazards aren't winning the game by themselves, but they can't go unaddressed, and by forcing an opposing team to manage hazards, you're creating opportunities to set up your own team.
 
@@ -387,6 +387,10 @@ Weak Against: ---
 Resists: ---
 
 Vulnerable: ---
+
+#### Primary Vs Secondary Types
+
+> Monsters can have two types at the same time, which could lead to combined attributes that are either game-breakingly powerful, or anti-synergistic and cancel each other out. To solve for both of these issues, the type attributes a Monster has will be based entirely on the `Primary` type of the Monster. The `Secondary` type still grants type immunties, resistances, and weaknesses, as well as boosting any attack moves that share the Monster's type, but the special type attributes of the Secondary type won't apply. As part of the player's customization options, a Monster can swap their Monster's type order outside of battle, granting them the attribute they feel are better suited to their team's layout.
 
 ### Strategies
 
