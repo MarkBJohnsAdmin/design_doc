@@ -360,7 +360,7 @@ Vulnerable: Fire, energy-based moves
 
 > Offensive and Flexible. Like Ghosts, these types excel at disrupting enemy teams with status ailments and other debuffs, but unlike Ghosts, Dark types get their hands dirty. These types are pure offense, hitting opponents hard causing all sorts of debuffs as they do, but they need to be utilized carefully, as there are good answers to them, and they won't last long after running into those answers.
 
-+ Strengths - added priority to all status inflicting moves, all moves with a chance for secondary effects have that effect increased
++ Strengths - added priority to all status inflicting moves, all moves with a chance for secondary effects have that chance increased
 + Cons - all stats reduced in "Luminous" aura, all Dark type strengths neutralized
 
 Strong Against: ---
@@ -390,7 +390,7 @@ Vulnerable: ---
 
 #### Primary Vs Secondary Types
 
-> Monsters can have two types at the same time, which could lead to combined attributes that are either game-breakingly powerful, or anti-synergistic and cancel each other out. To solve for both of these issues, the type attributes a Monster has will be based entirely on the `Primary` type of the Monster. The `Secondary` type still grants type immunties, resistances, and weaknesses, as well as boosting any attack moves that share the Monster's type, but the special type attributes of the Secondary type won't apply. As part of the player's customization options, a Monster can swap their Monster's type order outside of battle, granting them the attribute they feel are better suited to their team's layout.
+> Monsters can have two types at the same time, which could lead to combined attributes that are either game-breakingly powerful, or anti-synergistic and cancel each other out. To solve for both of these issues, the type attributes a Monster has will be based entirely on the `Primary` type of the Monster. The `Secondary` type still grants type immunties, resistances, and weaknesses, as well as boosting any attack moves that share the Monster's type, but the special type attributes of the Secondary type won't apply. As part of the player's customization options, a player can swap their Monster's type order outside of battle, granting them the attribute they feel are better suited to their team's layout.
 
 ### Strategies
 
