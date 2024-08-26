@@ -23,7 +23,60 @@ This project is a creature-collector RPG in the style of Pokemon, but designed t
 
 [home](#table-of-contents)
 
-*TODO*
+## Concept
+
+The game should feel very similar tonally and mechanically to Pokemon, with a pixelated, grid-based overworld. The biggest change that will effect every part of the overworld is that the sci-fi aspects of Pokemon will be replaced by pure fantasy elements. There will be several one-to-one mechanics to match Pokemon's, but they'll be given new in-game explanations and ways to access them.
+
+### Pokemon vs Familiars
+
+Unlike Pokemon, this world doesn't have powerful, elemental monsters gathering around by default. There are monsters, and they are dangerous if you're unprepared to face them, but they aren't nearly as threatening as a average Pokemon would be. Instead, these `beasts` have no typings and basic attacks, and the random encounter battles with them will be a very simplified, 1 vs 1 system instead of the more complex 3 vs 3 used for the rest of the game.
+
+Beasts are present in all biomes, and have evolved to suit their environments, but are still `null type` in the wild. This makes the wild encounters extremely simple, easy to manage, and easy to ignore, leaving the complexity to the person vs person battles. Beasts can still be captured, and in a very similar way to Pokemon, and when they are, the beasts will go through an `awakening`. Awakened beasts are given their types, access to their move pool, and access to other enchantments. Each species of beast has present attributes, so if you capture a beast and it becomes a Grass and Earth type, all beasts of that species you caputre will also be Grass and Earth type, with the same stats and move pool. The customization happens later.
+
+Beasts that have been awoken become `familiars`, and you have access to them for the remainder of the game.
+
+### Pokeballs vs Runes
+
+Instead of unexplained technology, the familiars are captured within magic `runes`. Runes vary in quality but are widely available, considered useless by the general public. This is because only sorceres are capable of using them to awaken beasts, and this world's government is dead set against letting the general public understand how familiars work. Every beast has intrinsic magic powers, which allows them to resist being captured, and it's the combination of the beast's instrinsic magic and the magic channeled through the runes that awakens them.
+
+These will work the same as Pokeballs, with different kinds of runes offering better catch rates or working against specific types of beasts:
+
++ Iron Rune - Pokeball
++ Bronze Rune - Great Ball,
++ Silver Rune - Ultra Ball,
++ Obsidian Rune - Master Ball
+
+And so on.
+
+### PC vs Runebook
+
+In Pokemon, you can carry six Pokemon in your bag, and more than most people will ever need in effectively Cloud storage. Instead of having biological creatures randomly digitized and rematerialized, familiars will have their energy tied to the Rune they were awoken with. Their souls are tied to the rune and can be recalled to them at any time. Your runes are also stored in a Runebook you keep on you, allowing you to store and organize all of your familiars. This also gives you permanent access to every familiar you capture, rather than needing to find a Pokemon Center or other building with PC access.
+
+Pokemon Centers are also replaced with White Mages, a secret order that has learned to purify runes, completely healing the familiar tied to them. White Mages will purify your entire Runebook when asked to, and they have secret members in every tow or city.
+
+Familiars in your party are determined by your armor. The player's armor will have slots for runes, and the runes in those slots will be the current party, so you still have to set up a team instead of throwing your entire Runebook at your opponent.
+
+### Items vs Enchantments
+
+Instead of the physical objects that Pokemon hold, you can enchant your runes with various gemstones. The gemstones act as a lens the familiar passes through, altering their attributes as it does. Adding a gemstone to your rune is mechanically the same as equipping a Pokemon with an item, but the attribute/ability the gem gives you is imbued within the familiar itself.
+
+Enchantments also take the place of Abilities, Natures, and EVs, which I go over more in the "Battle Mechanics" section.
+
+### Gyms and Elite Four vs Nobles and the King
+
+Instead of a carefully themed progression system that rewards the player badges, this world is actively going after you. You become a fugitive when you accidentally awaken a familiar prophesied to destroy all tyrants, and the corrupt king of this realm wants to stop you at any cost. Rather than fighting Gym Leaders to test your progress, you have to fight the king's nobles, who are set on taking you out to gain the king's favor. As you become more and more of a threat, the forces set against you become stronger and stronger, until ulitmately you have to take on the kingdom itself.
+
+This will feel very similar to the Gyms and Elite Four system, and it should, but this adds a sense of urgency, and allows the game to maintain and elevate conflict without having a 10 year old take on various terrorist organizations and whatever eldritch god they're trying to utilize.
+
+### Hidden Moves (Overworld Moves) vs Artifacts
+
+In earlier Pokemon games, progress in the Overworld was locked behind Hidden Moves, which were moves specifically designed to work both in battle and outside of battle. The most common examples are Strength, which lets you move giant boulders, Cut, which lets you cut down trees that are blocking your path, and Surf, which lets you travel across bodies of water. In addition to needing to access the moves, you also can't use them outside of battle until you get a particular Gym badge.
+
+I never liked this, both as a mechanic or a concept, as there seemed to be no reaon why a Pokemon with swords for arms couldn't cut down a tree until a badge told him it was okay. Hidden Moves were also almost never the best option to use in battle, so most playthroughs ended up with an "HM Slave" in your party, a low-leveled Pokemon whose only purpose was to learn multiple hidden moves so you could move through the overworld. Later games solved this by giving you Pokemon that had these traversal methods already set up, but this still seemed clunky and still included multiple Pokemon in your party that aren't for battling.
+
+Instead of having an HM Slave, my game will make the player the HM Slave. Instead of having a move called Cut that can cut down trees, but only after a certain badge is obtained, you now have an `artifact`, or an object granted some sort of power. So instead of being able to use moves outside of battle after beating a gym, you get access to an artifact after defeating a noble, in this case, a sword that allows you to cut down hazards in your path.
+
+This has the same utility of locking player progress behind different acheivements, but it makes more logical sense, and makes it so you permanently have access to this new traversal method instead of needing to tie it to a specific set of familiars.
 
 # Battle Mechanics
 
@@ -390,7 +443,7 @@ Vulnerable: ---
 
 #### Primary Vs Secondary Types
 
-> Monsters can have two types at the same time, which could lead to combined attributes that are either game-breakingly powerful, or anti-synergistic and cancel each other out. To solve for both of these issues, the type attributes a Monster has will be based entirely on the `Primary` type of the Monster. The `Secondary` type still grants type immunties, resistances, and weaknesses, as well as boosting any attack moves that share the Monster's type, but the special type attributes of the Secondary type won't apply. As part of the player's customization options, a player can swap their Monster's type order outside of battle, granting them the attribute they feel are better suited to their team's layout.
+> Monsters can have two types at the same time, which could lead to combined attributes that are either game-breakingly powerful, or anti-synergistic and cancel each other out. To solve for both of these issues, the type attributes a Monster has will be based entirely on the `Primary` type of the Monster. The `Secondary` type still grants type immunties, resistances, and weaknesses, as well as boosting any attack moves that share the Monster's type, but the special type attributes of the Secondary type won't apply. As part of the player's customization options, a player can swap their Monster's type order outside of battle, granting them the attributes they feel are better suited to their team's layout.
 
 ### Strategies
 
