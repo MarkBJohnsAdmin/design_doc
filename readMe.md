@@ -17,6 +17,7 @@ This project is a creature-collector RPG in the style of Pokemon, but designed t
   + [Hazards](#hazards)
   + [Weather](#weather)
   + [Type Attributes](#type-attributes)
+  + [Move Types](#move-types)
   + [Strategies](#strategies)
 
 # Overworld
@@ -444,6 +445,19 @@ Vulnerable: ---
 #### Primary Vs Secondary Types
 
 > Monsters can have two types at the same time, which could lead to combined attributes that are either game-breakingly powerful, or anti-synergistic and cancel each other out. To solve for both of these issues, the type attributes a Monster has will be based entirely on the `Primary` type of the Monster. The `Secondary` type still grants type immunties, resistances, and weaknesses, as well as boosting any attack moves that share the Monster's type, but the special type attributes of the Secondary type won't apply. As part of the player's customization options, a player can swap their Monster's type order outside of battle, granting them the attributes they feel are better suited to their team's layout.
+> 
+
+### Move Types
+
+Moves can also have Types, which is how the strong against / weak against attributes are factored (Water type attack strong against Fire type Familiar, Grass type attack weak against Metal type Familiar). If the Move type is the same as one of the Familiar types, that Move's base power is given a 50% increase, a direct holdover from Pokemon. 
+
+Where this will differ from Pokemmon is in Null type attacks. Pokemon has a few niche moves that are considered typeless, either implicitly or explicitly, but this will be a major component of this battle system. While typed Moves are generally powerful and objectively better, they will have limited uses (same as Power Points in Pokemon). Null type Moves, however, will be incredibly weak and lack most utitily (think Pound, Tackle, Scratch, etc), and will deal neutral damage to all Familars (barring Ghost and Metal resisting physcial Moves) with no chance for a Same-Type boost, but the benefit is that they will have unlimited uses. This is useful for tanks who want to deal consistent damage without worrying about matchups or sweepers who want to save their powerful nuke attacks for specific targets, but the main use will likely be for coverage.
+
+In Pokemon, there was a move called Hidden Power, that used a Pokemon's IVs to determine what type and base power the move would be. This was used to give Pokemon who didn't have a lot of move variety a way to cover some of their weaknessess, such as Zapdos using Hidden Power Water against the Rock/Ground types that otherwise wall it out completely, or as a way to discourage defensive switch ins, such as Dugtrio using Hidden Power Bug against Celebi who would otherwise shut it down completely. This is a good concept, but it tying it to IVs limits it. Various types that would be amazing converage are either impossible because certain event Pokemon have locked IVs, or the Ivs have to be so low to get the coverage type that you make the Pokemon worthless in the process.
+
+In this game, one of the item-styled enchantments will do this for you. Pokemon has Abilities that override Normal type attacks, making them a new type and giving them a 30% boost (Pixelate => Fairy type, Aerilate => Flying type, Refrigerate => Ice type). Each of our types will have an item-enchantment that converts all Null type attacks the Familar knows into that enchantment's type, while giving the Move's base power a 50% increase. This is balanced by the Null type Moves being weak by default, and that rather than being a free Move you can add, you have to use your item slot to accomplish this. However, this will also stack with the Same-Type bonus, so if you place a Fire enchantment onto a Fire type Familar and use a 40 power Null attack, it will have 90 power instead of just 60.
+
+There will also be a Hidden Power style Move designed to utilize this, which will have a base power of 80 when the Familiar is using a type enchantment, making it 120 power if you stack the enchantment on top of Same-Type Bonus. This is will put it on par with some of the strongest moves in the game, but with perfect accuracy and unlimited uses. Even without a Same-Type bonus, a consistent 80 power move is solid coverage as well. The idea here is to make a Hidden Power that's substantially stronger than the one in Pokemon, but requires more commitment in exchange.
 
 ### Strategies
 
